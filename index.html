@@ -2,11 +2,307 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Project</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
   <body>
-    <h1></h1>
-    <p></p>
+    <header class="header">
+      <div class="container">
+        <div class="header__box">
+          <a href="index.html" class="header__logo">
+            <img src="./img//logo.svg" alt="Crowdme" />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-links">
+              <li><a href="#" class="header__nav-link">Home</a></li>
+              <li>
+                <a href="#our-work" class="header__nav-link">How it works</a>
+              </li>
+              <li><a href="#how" class="header__nav-link">How</a></li>
+              <li><a href="#projects" class="header__nav-link">Blog</a></li>
+              <li><a href="#contscts" class="header__nav-link">Contacts</a></li>
+            </ul>
+          </nav>
+          <button class="header__btn btn">Login</button>
+
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="slider">
+        <div class="slider__content">
+          <div class="slider__overlay"></div>
+          <img src="./img/banner.png" alt="" class="slider__img" />
+          <div class="slider__inside">
+            <p class="slider__text">
+              <b>Intellectual Property has the Shelf Life</b> <br />
+              of a Banana.
+            </p>
+            <button class="banner__btn btn">Become a Member</button>
+          </div>
+        </div>
+        <div class="slider__content">
+          <div class="slider__overlay"></div>
+          <img src="./img/banner.png" alt="" class="slider__img" />
+          <div class="slider__inside">
+            <p class="slider__text">
+              <b>Intellectual Property has the Shelf Life</b> <br />
+              of a Banana.
+            </p>
+            <button class="banner__btn btn">Become a Member</button>
+          </div>
+        </div>
+        <div class="slider__content">
+          <div class="slider__overlay"></div>
+          <img src="./img/banner.png" alt="" class="slider__img" />
+          <div class="slider__inside">
+            <p class="slider__text">
+              <b>Intellectual Property has the Shelf Life</b> <br />
+              of a Banana.
+            </p>
+            <button class="banner__btn btn">Become a Member</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-work" class="our-work">
+      <div class="container">
+        <img class="our-work__pic" src="./img/Shape_846.svg" alt="Shape" />
+        <h2 class="our-work__title">
+          Our work is the presentation <br />
+          of our capabilities
+        </h2>
+        <div class="our-work__text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore <br />
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation
+          </p>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in <br />
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="work-look">
+      <div class="container">
+        <div class="work-look__tabs">
+          <div class="work-look__tab">1 Simple</div>
+          <div class="work-look__tab">2 Transparent</div>
+          <div class="work-look__tab">3 Collaborative</div>
+        </div>
+        <hr />
+        <div class="work-look__content">
+          <div class="work-look__pic">
+            <img src="./img/glasses.png" alt="glasses" />
+          </div>
+          <h2>Browse projects, like booking a hotel online !</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="find">
+      <div class="find__item find__item_blue">
+        <div class="find__pic">
+          <img src="./img/props.svg" alt="" />
+        </div>
+        <div class="find__texts">
+          <h6 class="find__title">Find Properties</h6>
+          <p class="find__text">
+            Sign up to browse the portfolio. Your journey to becoming a real
+            estate baron starts here.
+          </p>
+          <button class="find__btn btn find__btn_blue">Become A Member</button>
+        </div>
+      </div>
+      <div class="find__item find__item_green">
+        <div class="find__pic">
+          <img src="./img/buyers.svg" alt="" />
+        </div>
+        <div class="find__texts">
+          <h6 class="find__title">Find Properties</h6>
+          <p class="find__text">
+            Sign up to browse the portfolio. Your journey to becoming a real
+            estate baron starts here.
+          </p>
+          <button class="find__btn btn">Submit Your Project</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="projects__head">
+          <div class="projects__texts">
+            <h2 class="projects__title">Featured Projects</h2>
+            <p class="projects__subtitle">
+              Brief details of new and popular projects. To view full listings,
+              you will be required to sign up and become a member.
+            </p>
+          </div>
+          <button class="projects__btn">Become a Member</button>
+        </div>
+
+        <div class="projects__cards">
+          <div class="projects__card">
+            <div class="projects__image">
+              <img src="./img/card_pic.jpg" alt="Ontario Tower , LONDON" />
+              <div class="projects__badge">New</div>
+              <div class="projects__price">From <b>GBP 3600</b></div>
+            </div>
+            <div class="projects__content">
+              <h6 class="projects__card-title">Ontario Tower , LONDON</h6>
+              <p class="projects__card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="projects__progress"></div>
+              <div class="projects__info">
+                <div class="projects__stats">10% Funded</div>
+                <div class="projects__stats">8 Days Left</div>
+              </div>
+              <hr />
+              <a href="#" class="projects__details" title="tratata"
+                >See Project Details</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./img/central_card_pic.jpg"
+                alt="Ontario Tower , LONDON"
+              />
+              <div class="projects__badge">New</div>
+              <div class="projects__price">From <b>GBP 3600</b></div>
+            </div>
+            <div class="projects__content">
+              <h6 class="projects__card-title">Ontario Tower , LONDON</h6>
+              <p class="projects__card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="projects__progress projects__progress_60"></div>
+              <div class="projects__info">
+                <div class="projects__stats">60% Funded</div>
+                <div class="projects__stats">8 Days Left</div>
+              </div>
+              <hr />
+              <a href="#" class="projects__details" title="tratata"
+                >See Project Details</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img src="./img/card_pic.jpg" alt="Ontario Tower , LONDON" />
+              <div class="projects__badge">New</div>
+              <div class="projects__price">From <b>GBP 3600</b></div>
+            </div>
+            <div class="projects__content">
+              <h6 class="projects__card-title">Ontario Tower , LONDON</h6>
+              <p class="projects__card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="projects__progress"></div>
+              <div class="projects__info">
+                <div class="projects__stats">10% Funded</div>
+                <div class="projects__stats">8 Days Left</div>
+              </div>
+              <hr />
+              <a href="#" class="projects__details" title="tratata"
+                >See Project Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contscts" class="testimonials">
+      <div class="container">
+        <h2 class="testimonials__title">
+          Be Part of a Growing International Community
+        </h2>
+        <p class="testimonials__subtitle">
+          One of the challenges in networking is everybody thinks it's making
+          cold calls to strangers. Actually, it's the people who already have
+          strong trust relationships with you
+        </p>
+        <div class="testimonials__items">
+          <div class="testimonials__item">
+            <div class="testimonials__speach">
+              <h6>One of the Best</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod taempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="testimonials__person">
+              <img src="./img/testimonial_pic.jpg" alt="" />
+              <p>David Beckham</p>
+            </div>
+          </div>
+
+          <div class="testimonials__item">
+            <div class="testimonials__speach">
+              <h6>One of the Best</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod taempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="testimonials__person">
+              <img src="./img/Beckham.png" alt="" />
+              <p>David Beckham</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="arrow-up">Up</div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <img src="./img/footer_icons.jpg" alt="logos" />
+        </div>
+        <hr />
+        <div class="footer__bottom">
+          <p>Copyright © 2001 - 2014 Cssauthor.com</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./libs/jquery-3.6.0.min.js"></script>
+    <script src="./libs/slick.min.js"></script>
+    <script src="./libs/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="./src/index.js"></script>
   </body>
 </html>
